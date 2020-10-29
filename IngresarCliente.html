@@ -6,7 +6,7 @@
   margin:0;
   padding:100px 0 0 0;
 }
-div#header{
+#header{
   position:absolute;
   top:0;
   left:0;
@@ -16,7 +16,7 @@ div#header{
   color:#FFFFFF;
 }
  @media screen{
-  body>div#header{
+  #header{
    position: fixed;
   }
  }
@@ -27,7 +27,7 @@ div#header{
   height:100%;
   overflow:auto;
  }
- div#contenido {
+ #contenido {
   border: solid 1px #ccc;
   position: absolute;
   overflow: hidden;
@@ -42,8 +42,8 @@ div#header{
 	<link rel="stylesheet" type="text/css" href="estilo.css">
 </head>
 <body>
-<div id="contenido">
-<div id="header"> PHILADELPHIA </div>
+<main id="contenido">
+<header id="header"> PHILADELPHIA </header>
 	<div class="formCliente">
 		
 			<p>ID Cliente</p>
@@ -65,7 +65,7 @@ div#header{
 			<input type="submit" value="GUARDAR">
 		
 	</div>
-	</div>
+	</main>
 	</body>
 	<form>
 </html>
